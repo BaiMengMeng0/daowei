@@ -1,0 +1,145 @@
+body {
+  background: #fbf8f8;
+}
+body .serve_wrap .header {
+  height: 65px;
+  background: #fff;
+  padding: 0 70px;
+  border-bottom: 1px solid #ddd;
+  z-index: 100;
+}
+body .serve_wrap .header .header_logo {
+  float: left;
+}
+body .serve_wrap .header .header_logo a {
+  display: block;
+  height: 40px;
+}
+body .serve_wrap .header .header_logo a img {
+  margin-top: 10px;
+  width: 280px;
+  height: 40px;
+  vertical-align: middle;
+}
+body .serve_wrap .header .header_r {
+  float: right;
+  margin-top: 10px;
+}
+body .serve_wrap .header .header_r ul {
+  line-height: 40px;
+}
+body .serve_wrap .header .header_r ul li {
+  float: left;
+}
+body .serve_wrap .header .header_r ul li > a {
+  font-weight: 600;
+  color: #000;
+  padding: 10px 15px;
+}
+body .serve_wrap .header .header_r ul li > a img {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+body .serve_wrap .header .header_r ul li > a span {
+  font-weight: bold;
+}
+body .serve_wrap .header .header_r ul li > a:hover {
+  background: #fff;
+  color: #e94840;
+}
+body .serve_wrap .header .header_r ul li.active a {
+  color: #e94840;
+}
+body .serve_wrap .h2 {
+  line-height: 85px;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+body .serve_wrap .serve_content {
+  position: relative;
+}
+body .serve_wrap .serve_content .serve_content_l {
+  width: 970px;
+  margin-left: 80px;
+}
+body .serve_wrap .serve_content .serve_content_l ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+body .serve_wrap .serve_content .serve_content_l ul li {
+  box-sizing: border-box;
+  width: 232px;
+  height: 300px;
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+body .serve_wrap .serve_content .serve_content_l ul li a img {
+  width: 210px;
+  height: 210px;
+  vertical-align: middle;
+}
+body .serve_wrap .serve_content .serve_content_l ul li a .name_t {
+  height: 26px;
+  line-height: 26px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+body .serve_wrap .serve_content .serve_content_l ul li a .name_t img {
+  width: 18px;
+  height: 17px;
+  vertical-align: middle;
+  margin-right: 6px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+}
+body .serve_wrap .serve_content .serve_content_l ul li a .name_t span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+body .serve_wrap .serve_content .serve_content_l ul li a .comments {
+  font-size: 12px;
+  color: #929292;
+  height: 26px;
+  line-height: 26px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body .serve_wrap .serve_content .serve_content_l ul li a .comments span {
+  float: right;
+}
+body .serve_wrap .serve_content .serve_content_l ul .picture_i:hover {
+  box-shadow: 5px 5px 20px #AAAAAA;
+}
+body .serve_wrap .serve_content .centerright {
+  width: 230px;
+  position: absolute;
+  right: 80px;
+  top: 0px;
+}
+body .serve_wrap .serve_content .centerright .erweima {
+  width: 230px;
+  height: 290px;
+  background-image: url(../images/tuijianfuwushang_06.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10px;
+  text-align: center;
+}
+body .serve_wrap .serve_content .centerright .erweima img {
+  vertical-align: middle;
+  width: 130px;
+  margin: 50px 40px 0 50px;
+}

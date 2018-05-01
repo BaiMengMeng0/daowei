@@ -1,0 +1,333 @@
+body {
+  background: #f8f8f8;
+}
+body .comment_wrap .content {
+  position: relative;
+  margin-bottom: 40px;
+}
+body .comment_wrap .content .content_f {
+  margin: 10px auto 0;
+  background: #fff;
+  height: 140px;
+  line-height: 140px;
+  width: 1200px;
+  color: #333;
+}
+body .comment_wrap .content .content_f .content_f-left {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 120px;
+}
+body .comment_wrap .content .content_f .content_f-left b {
+  font-size: 36px;
+  font-weight: bold;
+}
+body .comment_wrap .content .content_f .content_f-left span {
+  margin-left: 10px;
+  color: #929292;
+}
+body .comment_wrap .content .content_f .content_f-left span em {
+  font-style: normal;
+}
+body .comment_wrap .content .content_f .content_f-right {
+  float: right;
+  height: 120px;
+  margin-top: 15px;
+}
+body .comment_wrap .content .content_f .content_f-right ul li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 52px;
+}
+body .comment_wrap .content .content_f .content_f-right ul li i {
+  font-style: normal;
+  display: block;
+  color: #e84b47;
+}
+body .comment_wrap .content .content_f .content_f-right ul li em {
+  font-style: normal;
+  position: relative;
+  bottom: 12px;
+  left: 20px;
+  color: #e5e5e5;
+}
+body .comment_wrap .content .content_nav {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #323434;
+  clear: both;
+}
+body .comment_wrap .content .content_nav ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+body .comment_wrap .content .content_nav ul li {
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+}
+body .comment_wrap .content .content_nav ul li a {
+  color: #fff;
+}
+body .comment_wrap .content .content_nav ul .content_nav_f {
+  background: #424242;
+}
+body .comment_wrap .content .content_b {
+  margin-top: 22px;
+  width: 1200px;
+  margin: 0 auto;
+}
+body .comment_wrap .content .content_b .content_b_left {
+  width: 960px;
+  background: #fff;
+  float: left;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+body .comment_wrap .content .content_b .content_b_left h3 {
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 3%;
+  height: 60px;
+  line-height: 60px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #e5e5e5;
+  background: #fff;
+  overflow: hidden;
+}
+body .comment_wrap .content .content_b .content_b_left h3 span {
+  color: #121212;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+body .comment_wrap .content .content_b .content_b_left h3 .active {
+  border-bottom: 4px solid #fb474f;
+}
+body .comment_wrap .content .content_b .content_b_left .comment_content {
+  font-style: normal;
+}
+body .comment_wrap .content .content_b .content_b_left .comment_content a .comment_content_n {
+  height: 200px;
+  border-bottom: 1px solid #e5e5e5;
+}
+body .comment_wrap .content .content_b .content_b_left .comment_content a .comment_content_n .pic {
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+  border: 1px solid #e5e5e5;
+  vertical-align: middle;
+  float: left;
+}
+body .comment_wrap .content .content_b .content_b_left .comment_content a .comment_content_n .service {
+  float: left;
+  position: relative;
+  top: 25px;
+  width: 64%;
+}
+body .comment_wrap .content .content_b .content_b_left .comment_content a .comment_content_n .service i {
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 99%;
+  display: block;
+  line-height: 42px;
+  height: 42px;
+  font-style: normal;
+}
+body .comment_wrap .content .content_b .content_b_left .comment_content a .comment_content_n .service .price {
+  margin-top: 20px;
+}
+body .comment_wrap .content .content_b .content_b_left .comment_content a .comment_content_n .service .price b {
+  font-size: 30px;
+  color: #fc545e;
+  font-weight: 700;
+}
+body .comment_wrap .content .content_b .content_b_left .comment_content a .comment_content_n .service .price b em {
+  font-style: normal;
+  font-size: 14px;
+}
+body .comment_wrap .content .content_b .content_b_left .comment_content a .comment_content_n .content_b_r {
+  color: #929292;
+  float: right;
+  margin: 20px 60px 0 0;
+}
+body .comment_wrap .content h3 {
+  width: 960px;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 6%;
+  height: 60px;
+  line-height: 60px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #e5e5e5;
+  background: #fff;
+  overflow: hidden;
+}
+body .comment_wrap .content h3 span {
+  color: #121212;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+body .comment_wrap .content h3 .active {
+  border-bottom: 4px solid #fb474f;
+}
+body .comment_wrap .content .jianjie {
+  width: 960px;
+  background: #fff;
+  height: 207px;
+  margin-left: 6%;
+}
+body .comment_wrap .content .jianjie .company {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 0px 25px;
+  background: #fff;
+  padding: 10px 0;
+}
+body .comment_wrap .content .jianjie .company img {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+body .comment_wrap .content .jianjie .profile {
+  line-height: 28px;
+  margin: 10px 25px 25px;
+  font-size: 16px;
+}
+body .comment_wrap .content .pinglun {
+  margin-top: 10px;
+  width: 960px;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 6%;
+  height: 60px;
+  line-height: 60px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #e5e5e5;
+  background: #fff;
+  overflow: hidden;
+}
+body .comment_wrap .content .pinglun span {
+  color: #121212;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+body .comment_wrap .content .pinglun .active {
+  border-bottom: 4px solid #fb474f;
+}
+body .comment_wrap .content .comment_user {
+  width: 960px;
+  background: #fff;
+  margin-left: 6%;
+}
+body .comment_wrap .content .comment_user .conmentss {
+  width: 96%;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 3%;
+  padding-top: 0px;
+}
+body .comment_wrap .content .comment_user .conmentss img {
+  border-radius: 6px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+body .comment_wrap .content .comment_user .conmentss ul {
+  display: inline-block;
+  margin-left: 20px;
+  width: 92%;
+}
+body .comment_wrap .content .comment_user .conmentss ul li {
+  border: none;
+  width: auto;
+  height: auto;
+  display: block;
+  float: none;
+  padding: 0;
+  line-height: 28px;
+  margin: 0;
+}
+body .comment_wrap .content .comment_user .conmentss ul li img {
+  vertical-align: top;
+}
+body .comment_wrap .content .comment_user .conmentss ul .commentdetail {
+  line-height: 26px;
+  font-size: 16px;
+}
+body .comment_wrap .content .comment_user .conmentss ul .commentposition {
+  height: 40px;
+  color: #898989;
+  font-size: 14px;
+  margin-top: 15px;
+}
+body .comment_wrap .content .comment_user .conmentss ul .commentposition img {
+  margin-right: 7px;
+}
+body .comment_wrap .content .pages {
+  width: 96%;
+  height: 152px;
+  text-align: center;
+  vertical-align: middle;
+}
+body .comment_wrap .content .pages a {
+  height: 150px;
+  line-height: 152px;
+  width: 30px;
+  font-size: 14px;
+  color: #121212;
+  border: 1px solid #e5e5e5;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px 10px;
+}
+body .comment_wrap .content .pages .nopage {
+  color: #929292;
+}
+body .comment_wrap .content .pages .active {
+  background: #fb474f;
+  color: #fff;
+}
+body .comment_wrap .content .pages .showpage {
+  display: inline-block;
+}
+body .comment_wrap .content .pages .showpage a:hover {
+  background: #fb474f;
+  color: #fff;
+}
+body .comment_wrap .content .comment_right {
+  position: absolute;
+  top: 190px;
+  right: 80px;
+  display: flex;
+  flex-direction: column;
+}
+body .comment_wrap .content .comment_right img {
+  width: 115px;
+  height: 115px;
+}
+body .comment_wrap .content .comment_right .comment_right_t {
+  display: block;
+  width: 230px;
+  height: 290px;
+  background-image: url("../images/tuijianfuwushang_06.jpg");
+  text-align: center;
+  line-height: 290px;
+}
+body .comment_wrap .content .comment_right .comment_right_d {
+  display: block;
+  width: 230px;
+  height: 290px;
+  background-image: url("../images/fuwushang2_07.jpg");
+  text-align: center;
+  line-height: 290px;
+}

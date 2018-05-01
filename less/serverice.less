@@ -1,0 +1,155 @@
+body{
+  background: #fbf8f8;
+  .serve_wrap{
+    .header{
+      height: 65px;
+      background: #fff;
+      padding: 0 70px;
+      border-bottom: 1px solid #ddd;
+      z-index: 100;
+      .header_logo{
+
+        float: left;
+        a{
+          display: block;
+          height: 40px;
+          img{
+            margin-top: 10px;
+            width: 280px;
+            height: 40px;
+            vertical-align: middle;
+          }
+        }
+      }
+      .header_r{
+        float: right;
+        margin-top: 10px;
+        ul{
+          line-height: 40px;
+          li{
+            float: left;
+            >a{
+              font-weight: 600;
+              color: #000;
+              padding: 10px 15px;
+              img{
+                vertical-align: middle;
+                width: 20px;
+                height: 20px;
+              }
+              span{
+                font-weight: bold;
+              }
+            }
+            >a:hover{
+              background: #fff;
+              color: #e94840;
+            }
+            &.active{
+              a{
+                color: #e94840;
+              }
+            }
+          }
+        }
+
+      }
+    }
+    .h2{
+      line-height: 85px;
+      width: 1200px;
+      margin: 0 auto;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .serve_content{
+      position: relative;
+      .serve_content_l{
+        width: 970px;
+        margin-left: 80px;
+        ul{
+          display: flex;
+          flex-flow: row wrap;
+          li{
+            box-sizing: border-box;
+            width: 232px;
+            height: 300px;
+            border: 1px solid #eaeaea;
+            padding: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            background: #fff;
+            //text-align: center;
+            a{
+              img{
+                width: 210px;
+                height: 210px;
+                vertical-align: middle;
+              }
+              .name_t{
+                height: 26px;
+                line-height: 26px;
+                margin: 0;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin-top: 15px;
+                box-sizing: border-box;
+                img{
+                  width: 18px;
+                  height: 17px;
+                  vertical-align: middle;
+                  margin-right: 6px;
+                  margin-bottom: 5px;
+                  padding-left: 0px;
+                }
+                span{
+                  font-size: 16px;
+                  font-weight: 700;
+                  color: #333;
+                }
+              }
+              .comments{
+                font-size: 12px;
+                color: #929292;
+                height: 26px;
+                line-height: 26px;
+                margin: 0;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                //margin-left: -78px;
+                span{
+                  float: right;
+                }
+              }
+            }
+          }
+          .picture_i:hover{
+            box-shadow: 5px 5px 20px #AAAAAA;
+          }
+        }
+      }
+      .centerright{
+        width: 230px;
+        position: absolute;
+        right: 80px;
+        top:0px;
+        .erweima{
+          width: 230px;
+          height: 290px;
+          background-image: url(../images/tuijianfuwushang_06.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-top: 10px;
+          text-align: center;
+          img{
+            vertical-align: middle;
+            width: 130px;
+            margin: 50px 40px 0 50px;
+          }
+        }
+      }
+    }
+  }
+}

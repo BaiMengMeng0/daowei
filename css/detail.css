@@ -1,0 +1,180 @@
+body {
+  background: #fbf8f8;
+}
+body .service_center {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+body .service_center .h2 {
+  line-height: 85px;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+body .service_center .h2 .bright {
+  cursor: pointer;
+  font-weight: normal;
+  margin: 0 10px;
+}
+body .service_center .center_left {
+  width: 960px;
+  float: left;
+  margin-bottom: 50px;
+}
+body .service_center .center_left .ctop {
+  height: 220px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+body .service_center .center_left .ctop .pic {
+  width: 160px;
+  height: 160px;
+  border: 1px solid #e5e5e5;
+  margin: 30px;
+  float: left;
+}
+body .service_center .center_left .ctop .spm {
+  float: left;
+  position: relative;
+  top: 25px;
+}
+body .service_center .center_left .ctop .spm > i {
+  display: block;
+  height: 42px;
+  line-height: 42px;
+  font-size: 15px;
+}
+body .service_center .center_left .ctop .spm > i:nth-child(1) {
+  font-size: 18px;
+  color: #1d1515;
+}
+body .service_center .center_left .ctop .spm > i > b {
+  color: #fc545e;
+  font-size: 20px;
+  margin-left: 10px;
+}
+body .service_center .center_left .ctop .spm > i > b > em {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+body .service_center .center_left .ctop .spm > i .oldpic {
+  font-size: 14px;
+  color: #898989;
+  margin-left: 40px;
+  font-weight: normal;
+}
+body .service_center .center_left .ctop .spm > i .oldpic > em {
+  text-decoration: line-through;
+}
+body .service_center .center_left .ctop .spm > i .yishou {
+  color: #fc545e;
+  font-style: normal;
+  margin-left: 16px;
+}
+body .service_center .center_left .ctop .spf {
+  float: right;
+  margin: 20px 60px 0 0;
+}
+body .service_center .center_left .ctop .spf > img {
+  width: 115px;
+  height: 115px;
+}
+body .service_center .center_left .ctop .spf > b {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: bold;
+}
+body .service_center .center_left .ctop .spf > b:nth-child(3) {
+  color: #fb474f;
+}
+body .service_center .center_left .cdow {
+  clear: both;
+  background: #fff;
+  padding: 30px 20px;
+  border: 1px solid #e5e5e5;
+  margin-top: 10px;
+}
+body .service_center .center_left .cdow > b {
+  border-bottom: 3px solid #fb474f;
+  padding: 5px;
+  margin-top: 10px;
+  width: 66px;
+  display: block;
+}
+body .service_center .center_left .cdow > pre {
+  line-height: 24px;
+  margin: 15px 0 5px;
+  font-size: 14px;
+  padding: 9.5px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+body .service_center .center_left .cdow > p {
+  line-height: 24px;
+  margin: 15px 0 5px;
+  font-size: 14px;
+}
+body .service_center .center_left .cdow > p > i {
+  margin-left: 20px;
+}
+body .service_center .center_left .cdow > p > i > em {
+  color: #fb474f;
+  font-style: normal;
+}
+body .service_center .center_right {
+  position: relative;
+  margin-left: 10px;
+  width: 230px;
+  float: right;
+}
+body .service_center .center_right .rightct {
+  width: 230px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+body .service_center .center_right .rightct > h3 {
+  font-size: 20px;
+  padding-left: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: left;
+  font-weight: bold;
+}
+body .service_center .center_right .rightct > img {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 40px 50px;
+  margin-bottom: 10px;
+}
+body .service_center .center_right .rightct > p {
+  text-align: left;
+  padding: 0 10px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 36px;
+}
+body .service_center .center_right .rightct > p > i {
+  float: right;
+  color: #fb474f;
+}
+body .service_center .center_right .erweima {
+  width: 230px;
+  height: 290px;
+  background: url("../images/tuijianfuwushang_06.jpg") no-repeat center;
+  margin: 10px 0 0;
+}
+body .service_center .center_right .erweima > img {
+  margin: 50px 0 0 50px;
+  vertical-align: middle;
+  width: 130px;
+}

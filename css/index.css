@@ -1,0 +1,75 @@
+#wrap {
+  overflow: hidden;
+}
+#wrap .content {
+  margin-top: 65px;
+}
+#wrap .content .content_t {
+  position: relative;
+}
+#wrap .content .content_t .swiper-container {
+  width: 1800px;
+  margin-left: -230px;
+}
+#wrap .content .content_t .container {
+  position: absolute;
+  left: 110px;
+  top: 0px;
+  z-index: 99;
+  width: 180px;
+  height: 422px;
+  background: #757881;
+}
+#wrap .content .content_t .container .tab_container {
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 180px;
+  top: 0px;
+  width: 160px;
+  height: 420px;
+}
+#wrap .content .content_t .container .tab_container .tab_content ul li {
+  width: 160px;
+  height: 42px;
+  text-align: center;
+}
+#wrap .content .content_t .container .tab_container .tab_content ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #121212;
+  line-height: 42px;
+}
+#wrap .content .content_t .container .tabs li {
+  width: 180px;
+  height: 42px;
+  text-align: center;
+}
+#wrap .content .content_t .container .tabs li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 42px;
+}
+#wrap .content .content_m {
+  width: 1200px;
+  margin: 0 auto;
+  height: 490px;
+  background: yellow;
+}
+#wrap .content .content_m .content_m_i {
+  padding: 50px 0 0;
+}
+#wrap .content .content_m .content_m_i .content_d {
+  text-align: center;
+}
+#wrap .content .content_m .content_m_i .content_d span {
+  font-size: 28px;
+  font-weight: 800;
+  color: #3d3838;
+  font-family: "Microsoft YaHei";
+}
+#wrap .content .content_m .content_m_i .content_d .item {
+  display: block;
+  font-size: 22px;
+  margin-top: 15px;
+}
